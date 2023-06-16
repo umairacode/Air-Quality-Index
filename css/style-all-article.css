@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+.headercontainer{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*TEXT*/
+h1{
+    color: #242323;
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+h6{
+    color: #14313f;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+p{
+    color: #303335;
+    font-size: 11px;
+    margin-bottom: 1%;
+    line-height: 18px;
+}
+.imgcontent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    width: 50%;
+}
+
+/*box*/
+.box{
+    margin: 20px 15px;
+    background: rgba(255, 255, 255, 0.568);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(12.4px);
+    border: 1px solid rgba(255, 255, 255, 0.51);
+    box-sizing: border-box;
+    padding: 50px 50px 50px;
+    width: 1140px;
+}
+.paragraph{
+    font-size: medium;
+    text-align: justify;
+    line-height: 29px;
+}
+hr{
+    margin-bottom: 4% ;
+}
+.next{
+    display: inline-block;
+    margin: 20px 20px;
+}
+.nextRight{
+    float: right;
+}
+.next:hover{
+    text-decoration: underline;
+    color: #14313f;
+    cursor: pointer;
+}
+
+
+/*FOOTER*/
+.credit{
+    text-align: center;
+    padding: 2%;
+}

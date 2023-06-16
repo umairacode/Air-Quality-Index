@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*HEADER*/
+.headercontainer{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/*BOXES*/
+.box{
+    margin: 30px 10px;
+    background: rgba(255, 255, 255, 0.568);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    padding: 15px 30px;
+    align-items: center;
+}
+.container1, .container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1{
+    width: 340px;
+    height: 325px;
+}
+.b1 h3{
+    margin-bottom: 10%;
+}
+.b2{
+    background: rgba(0, 252, 0, 0.829);
+    height: 130px;
+}
+.b2, .b3{
+    flex: 1;
+    width: 770px;
+}
+.b4{
+    width: 1130px;
+    height: 540px;
+}
+
+
+/*TITLE & TABLE*/
+#weatherKL{
+    font-weight: lighter;
+    font-size: 15px;
+}
+#KLcurrentAQI{
+    border-color: #303335;
+}
+h6{
+    color: #14313f;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 1%;
+    margin-bottom: 0.8%;
+}
+h1{
+    color: #242323;
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+h5{
+    color: #242323;
+    font-weight: lighter;
+    font-size: medium;
+}
+h3{
+    color: #242323;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+p{
+    color: #303335;
+    font-size: 11px;
+    margin-bottom: 1%;
+}
+.updatetime{
+    color: #303335;
+    font-size: 11px;
+    margin-bottom: 1%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+}
+td, th{
+    padding: 0.55em 1.5em;
+    text-align: left;
+}
+th{
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+.b2 td, th{
+    padding: 0.2em 0.5em;
+    text-align: left;
+    padding-left: 2%;
+}
+.b2 th{
+    color: #ffffff;
+    font-weight: light;
+    font-size: 15px;
+}
+.b2 td{
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgba(20, 116, 20, 0.877);
+}
+
+
+/*TABLE DATA COLOURS*/
+.Medium:hover{
+    background-color: rgb(241, 150, 46);
+}
+.top{
+    background-color: rgb(241, 150, 46);
+}
+
+/*FOOTER*/
+.credit{
+    text-align: center;
+    padding: 2%;
+}

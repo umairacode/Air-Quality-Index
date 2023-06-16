@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kuala Lumpur AQI</title>
+	<link rel="stylesheet" href="css/style-kl.css">
+	<link rel="icon" type="image/x-icon" href="/images/cloudlogo.png">
+	<link href="https://fonts/googleapis/com/css2?
+	family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<script src="js/home.js"></script>
+</head>
+
+<body>
+	<div class="headercontainer">
+		<div class="navbar">
+			<img src="images/logomaqiblack.png" class="logo" onClick="HomePage()">
+            <nav onClick="AboutPage()">ABOUT</nav>
+		</div>
+
+    <div class="title">
+        <h6>Home > Malaysia > Kuala Lumpur</h6>
+        <h1>Air quality in Kuala Lumpur</h1>
+        <h5>Air quality index (AQI) and PM2.5 air pollution in Malaysia</h5>
+    </div>
+
+    <!--L: weather, R: header, current AQI-->
+    <div class="container1">
+        <div class="col c1">
+            <div class="box b1"> <!--weather-->
+                <div class="weatherheader">
+                    <h6>WEATHER</h6>
+                    <h3>What is the current weather in Kuala Lumpur?</h>
+
+                </div>
+                <table id="weatherKL">
+                    <tbody>
+                        <tr><td>Weather</td><td class="trow2">Broken clouds</td></tr>
+                        <tr><td>Temperature</td><td class="trow2">31°C</td></tr>
+                        <tr><td>Humidity</td><td class="trow2">79%</td></tr>
+                        <tr><td>Wind</td><td class="trow2">7.9km/h</td></tr>
+                        <tr><td>Pressure</td><td class="trow2">1008 mbar</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <div class="col c2">
+            <!--KL header-->
+            <div class="box b2">
+                <table id="KLcurrentAQIheader">
+                    <thead><tr><th>US AQI</th><th>LIVE AQI INDEX</th></tr></thead>
+                    <tbody><tr><td>39</td><td>GOOD</td></tbody>
+                </table>
+            </div> 
+
+            <!--current AQI-->
+            <div class="box b3"> 
+                <div class="currentAQIheader">
+                    <h6>OVERVIEW > MALAYSIA</h6>
+                    <h3>What is the current air quality in Kuala Lumpur?</h3>
+                    <p class="updatetime">Last Update at 00:31, May 17 (local time)</p>
+                </div>
+                <table id="KLcurrentAQI">
+                    <thead><tr><th>Air Pollution Level</th><th>Air Quality Index</th><th>Main Pollutant</th></tr></thead>
+                    <tbody><tr><td>Moderate</td><td>65 US AQI</td><td>PM2.5</td></tr></tbody>
+                </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Row1: KL AQI ranking, Row2: KL articles-->
+    <div class="container2">
+        <div class="box b4"> <!--KL AQI Ranking-->
+            <div class="KLrankingheader">
+                <h6>LIVE KUALA LUMPUR AQI RANKING</h6>
+                <h1>Real-Time Kuala Lumpur Air Quality Ranking</h1>
+                <p class="updatetime">Last Update at 00:31, May 17 (local time)</p>
+            </div>
+            <table id="cleanesttable">
+                <thead><tr><th>#</th><th>STATION</th><th>US AQI</th></tr></thead>
+                <tbody>
+                    <tr class="Medium top"><td>1</td><td>University of Malaya</td><td>25</td></tr>
+                    <tr class="Medium"><td>2</td><td>Batu Muda</td><td>26</td></tr>
+                    <tr class="Medium"><td>3</td><td>Cheras</td><td>27</td></tr>
+                    <tr class="Medium"><td>4</td><td>Jalan Ampang Hilir</td><td>29</td></tr>
+                    <tr class="Medium"><td>5</td><td>IQAIR MALAYSIA - EZIS</td><td>29</td></tr>
+                    <tr class="Medium"><td>6</td><td>Jalan Kiara 4</td><td>30</td></tr>
+                    <tr class="Medium"><td>7</td><td>Jalan Kiara Mont Kiara</td><td>31</td></tr>
+                    <tr class="Medium"><td>8</td><td>Jalan U Thant</td><td>31</td></tr>
+                    <tr class="Medium"><td>9</td><td>US Embassy in Kuala Lumpur</td><td>36</td></tr>
+                    <tr class="Medium"><td>10</td><td>Keningau, Sabah</td><td>37</td></tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="row r2"> <!--KL Articles-->
+            
+        </div>
+    </div>    
+        
+    <!--Credit-->
+    <div class="credit"><p>Credit to <a href="https://www.iqair.com/malaysia">IQAir</a></p></div>
+
+    
+</body>
+</html>

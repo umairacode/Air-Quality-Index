@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*HEADER*/
+.headercontainer{
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.next{
+    position: relative;
+    text-align: right;
+    color: #14313f;
+}
+.next:hover{
+    text-decoration: underline;
+    color: #14313f;
+}
+
+/*BOXES*/
+.box{
+    margin: 20px 15px;
+    background: rgba(255, 255, 255, 0.568);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(12.4px);
+    border: 1px solid rgba(255, 255, 255, 0.51);
+    box-sizing: border-box;
+    padding: 15px 30px;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1{
+    width: 1140px;
+    height: 570px;
+}
+.b2, .b3{
+    width: 500px;
+    height: 500px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+/*TITLE & TABLE*/
+h6{
+    color: #14313f;
+    font-weight: lighter;
+    font-size: 13px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+h1{
+    color: #242323;
+    margin-bottom: 1%;
+}
+p{
+    color: #303335;
+    font-size: 11px;
+    margin-bottom: 1%;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+    border-radius: 16px;
+    margin-top: 2%;
+}
+th{
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+td, th{
+    padding: 0.55em 1.5em;
+    text-align: left;
+}
+
+
+/*TABLE DATA COLOURS*/
+.High:hover{
+    background-color: rgb(224, 80, 80);
+}
+.Medium:hover{
+    background-color: rgb(241, 150, 46);
+}
+.Malaysia{
+  font-weight: bold;
+  background-color: rgb(252, 231, 46);
+  cursor: pointer;
+}
+.Low:hover{
+    background-color: rgb(252, 231, 46);
+}
+.Good:hover{
+    background-color: rgb(15, 231, 15);
+}
+.top{
+    font-weight: bold;
+}
+.KSelangor{
+    background-color: rgb(241, 150, 46);
+}
+.KuahKedah{
+    background-color: rgb(15, 231, 15);
+}
+
+/*FOOTER*/
+.credit{
+    text-align: center;
+    padding: 2%;
+}

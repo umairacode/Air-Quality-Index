@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Malaysia AQI</title>
+	<link rel="stylesheet" href="css/style-malaysia.css">
+	<link rel="icon" type="image/x-icon" href="/images/cloudlogo.png">
+	<link href="https://fonts/googleapis/com/css2?
+	family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<script src="js/home.js"></script>
+</head>
+
+<body>
+	<div class="headercontainer">
+		<div class="navbar">
+			<img src="images/logomaqiblack.png" class="logo" onClick="HomePage()">
+			<nav onClick="AboutPage()">ABOUT</nav>
+		</div>
+
+    <div class="next"><a href="kuala-lumpur.html">See Kuala Lumpur</a></div>
+
+    <div class="container1">
+        <div class="box b1">
+            <div class="b1header">
+                    <h6>HOME > MALAYSIA</h6>
+                    <h1>Malaysia Air Quality Index</h1>
+                    <p>Last Update at 00:31, May 17 (local time)</p>
+            </div>
+
+            <table id="countrytable">
+                <thead><tr><th>#</th><th>COUNTRY</th><th>POPULATION</th><th>AVG. US</th></tr></thead>
+                <tbody>
+                        <tr class="High"><td class="rank">1</td><td class="country"><img src="images/FlagChad.png" width="13" height="12"> Chad</td><td class="population">17,179,740</td><td class="avgus High">169</td></tr>
+                        <tr class="High"><td class="rank">2</td><td class="country"><img src="images/FlagIraq.png" width="13" height="12"> Iraq</td><td class="population">43,533,592</td><td class="avgus High">164</td></tr>
+                        <tr class="High"><td class="rank">3</td><td class="country"><img src="images/FlagPakistan.png" width="13" height="12"> Pakistan</td><td class="population">231,402,117</td><td class="avgus High">159</td></tr>
+                        <tr class="High"><td class="rank">4</td><td class="country"><img src="images/FlagBahrain.png" width="13" height="12"> Bahrain</td><td class="population">1,463,265</td><td class="avgus High">157</td></tr>
+                        <tr class="High"><td class="rank">5</td><td class="country"><img src="images/FlagBangladesh.png" width="13" height="12"> Bangladesh</td><td class="population">169,356,251</td><td class="avgus High">156</td></tr>
+                        <tr class="High"><td class="rank">6</td><td class="country"><img src="images/FlagBurkinaFaso.png" width="13" height="12"> Burkina Faso</td><td class="population">22,100,683</td><td class="avgus High">155</td></tr>
+                        <tr class="High"><td class="rank">7</td><td class="country"><img src="images/FlagKuwait.png" width="13" height="12"> Kuwait</td><td class="population">4,250,114</td><td class="avgus High">151</td></tr>
+                        <tr class="Medium"><td class="rank">8</td><td class="country"><img src="images/FlagIndia.png" width="13" height="12"> India</td><td class="population">1,407,563,842</td><td class="avgus Medium">144</td></tr>
+                        <tr class="Medium"><td class="rank">9</td><td class="country"><img src="images/FlagEgypt.png" width="13" height="12"> Egypt</td><td class="population">109,262,178</td><td class="avgus Medium">128</td></tr>
+                        <tr class="Medium"><td class="rank">10</td><td class="country"><img src="images/FlagTajikistan.png" width="13" height="12"> Tajikistan</td><td class="population">9,750,064</td><td class="avgus Medium">127</td></tr>
+                        <tr class="Low Malaysia" onClick="MalaysiaPage()"><td class="rank">59</td><td class="country"><img src="images/FlagMalaysia.png" width="13" height="12"> Malaysia</td><td class="population">33,573,874</td><td class="avgus Low">63</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+        
+    <div class="container2">
+            <div class="box b2">
+                <div class="b2header">
+                    <h6>LIVE AQI CITY RANKING</h6>
+                    <h1>Malaysia Most Polluted City</h1>
+                    <p>Last Update at 00:31, May 17 (local time)</p>
+                </div>
+
+                <table id="pollutedtable">
+                    <thead><tr><th>#</th><th>CITY</th><th>US AQI</th></tr></thead>
+                    <tbody>
+                        <tr class="Medium top KSelangor"><td class="rank">1</td><td class="city">Kuala Selangor, Selangor</td><td class="usaqi">142</td></tr>
+                        <tr class="Medium"><td class="rank">2</td><td class="city">Segamat District, Johor</td><td class="usaqi">139</td></tr>
+                        <tr class="Medium"><td class="rank">3</td><td class="city">Shah Alam, Selangor</td><td class="usaqi">117</td></tr>
+                        <tr class="Medium"><td class="rank">4</td><td class="city">Klang, Selangor</td><td class="usaqi">113</td></tr>
+                        <tr class="Low"><td class="rank">5</td><td class="city">Petaling Jaya, Selangor</td><td class="usaqi">100</td></tr>
+                        <tr class="Low"><td class="rank">6</td><td class="city">Banting, Selangor</td><td class="usaqi">92</td></tr>
+                        <tr class="Low"><td class="rank">7</td><td class="city">Seri Manjung, Perak</td><td class="usaqi">89</td></tr>
+                        <tr class="Low"><td class="rank">8</td><td class="city">Nilai, Negeri Sembilan</td><td class="usaqi">86</td></tr>
+                        <tr class="Low"><td class="rank">9</td><td class="city">Pasir Gudang, Johor</td><td class="usaqi">86</td></tr>
+                        <tr class="Low"><td class="rank">10</td><td class="city">Simpang Ampat, Penang</td><td class="usaqi">86</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="box b3">
+                <div class="b3header">
+                    <h6>LIVE AQI CITY RANKING</h6>
+                    <h1>Malaysia Cleanest City</h1>
+                    <p>Last Update at 00:31, May 17 (local time)</p>
+                </div>
+
+                <table id="cleanesttable">
+                    <thead><tr><th>#</th><th>CITY</th><th>US AQI</th></tr></thead>
+                    <tbody>
+                        <tr class="Good top KuahKedah"><td class="rank">1</td><td class="city">Kuah, Kedah</td><td class="usaqi">25</td></tr>
+                        <tr class="Good"><td class="rank">2</td><td class="city">Sarikei, Sarawak</td><td class="usaqi">26</td></tr>
+                        <tr class="Good"><td class="rank">3</td><td class="city">Kangar, Perlis</td><td class="usaqi">27</td></tr>
+                        <tr class="Good"><td class="rank">4</td><td class="city">Bongawan, Sabah</td><td class="usaqi">29</td></tr>
+                        <tr class="Good"><td class="rank">5</td><td class="city">Sri Aman, Sarawak</td><td class="usaqi">29</td></tr>
+                        <tr class="Good"><td class="rank">6</td><td class="city">Kota Samarahan, Sarawak</td><td class="usaqi">30</td></tr>
+                        <tr class="Good"><td class="rank">7</td><td class="city">Alor Setar, Kedah</td><td class="usaqi">31</td></tr>
+                        <tr class="Good"><td class="rank">8</td><td class="city">Kapit, Sarawak</td><td class="usaqi">31</td></tr>
+                        <tr class="Good"><td class="rank">9</td><td class="city">Sandakan, Sabah</td><td class="usaqi">36</td></tr>
+                        <tr class="Good"><td class="rank">10</td><td class="city">Keningau, Sabah</td><td class="usaqi">37</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+       
+        <div class="credit"><p>Credit to <a href="https://www.iqair.com/malaysia">IQAir</a></p></div>
+    </div>
+</body>
+</html>
